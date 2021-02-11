@@ -11,4 +11,4 @@ Two files.
 A single .svg file (named the same as the input FASTA file) containing color-coded motifs shown to scale on a gene line with exons represented as boxes. Legend for motif color is provided.
 
 # Example Usage:
-python ./motifmarker.py -f <FASTA file> -m <motif file>
+python ./motifmarker.py -f [FASTA file] -m [motif file]
