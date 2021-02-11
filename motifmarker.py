@@ -210,7 +210,7 @@ for i in fasta_dict:
                 
             context.set_line_width(.1)
             context.rectangle(match_list[0] + 50, current_height + 25 - 30, match_list[1] - match_list[0], 60) # Draw rectangle of width(motif) at each motif location
-            context.set_source_rgb(colors_list[color_counter], colors_list[color_counter + 1], colors_list[color_counter + 2]) #Draw in different colors for each motif
+            context.set_source_rgba(colors_list[color_counter], colors_list[color_counter + 1], colors_list[color_counter + 2], 0.65) #Draw in different colors for each motif
             context.fill()
         color_counter += 3
     current_height += 100
