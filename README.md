@@ -1,5 +1,5 @@
 # motif-mark
-Python code to visualize motifs on gene sequences
+Python code to visualize motif locations on gene sequences
 
 
 # Inputs:
