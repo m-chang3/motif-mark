@@ -17,4 +17,4 @@ python ./motifmarker.py -f [FASTA file] -m [motif file]
 argparse \
 itertools \
 re \
-cairo \
+cairo 
