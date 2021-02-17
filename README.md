@@ -12,3 +12,9 @@ A single .svg file (named the same as the input FASTA file) containing color-cod
 
 # Example Usage:
 python ./motifmarker.py -f [FASTA file] -m [motif file]
+
+# Dependent Packages:
+argparse \
+itertools \
+re \
+cairo 
