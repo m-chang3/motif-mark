@@ -18,3 +18,6 @@ argparse \
 itertools \
 re \
 cairo 
+
+# Motif Mark OOP
+Same inputs, outputs, usage, and dependencies as above. Difference is that this python code uses object oriented programming to achieve the same goal.
