@@ -273,8 +273,9 @@ for i in fasta_dict:
         motif_count = motif_count + 1
         motif.draw_motifs(match_list)
         match_list = []
-    gene_group = GeneGroup(gene, exon, fastaheader, motif_dict)
+    
         color_counter += 3
+    gene_group = GeneGroup(gene, exon, fastaheader, motif_dict)
     current_height += 100
     color_counter = 0
     
